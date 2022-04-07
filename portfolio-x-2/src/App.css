@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p,
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.first-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+
+.first-flex {
+    flex: 0 1 10%;
+}
+
+.second-flex {
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+.thrid-flex {}
+
+.developer-name {
+    margin: 10px;
+    margin-top: 20px;
+
+}
+
+.name {
+    padding-left: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.icons i {
+    padding-right: 10px;
+}
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/* li a:hover {
+    background-color: #111111;
+  } */
+
+.about {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+#work {
+    padding: 10px;
+}
+
+.mywork {
+    margin: 10px;
+    border: 1px solid yellow;
+    /* padding-bottom: 10px; */
+    /* padding: 15px; */
+}
+
+.grid-container {
+    /* here is where youre going to add the grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 2%;
+}
+
+.cards-listing {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+}
+
+.cardy {
+    border: 1px solild green;
+}
+
+@media only screen and (max-width: 49em) {
+    .app {
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+.grid-container{
+    display: block;
+}
+    .nav {
+        justify-content: safe center;
+    }
+
+    .icons {
+        justify-items: auto;
+    }
+
+    .grid-child-dog {
+        justify-items: center;
+    }
+
+    .grid-child-photo {
+        justify-content: center;
+    }
+
+    .grid-child-expanding {
+        justify-content: center;
+    }
+
+}
