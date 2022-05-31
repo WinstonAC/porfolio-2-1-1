@@ -48,10 +48,7 @@ class App extends React.Component {
             <div className='about'>
               <h2>About Me</h2>
               <p>
-                Hi, my name is William Campbell, Billy, if we become friends!
-                I’m an ambitious and driven Software Engineer based in NYC
-                specializing in building various projects, cool websites, and
-                anything that awakens the senses.{" "}
+              Hi, my name is William Campbell, Billy, if we become friends! I’m an ambitious and driven Software Engineer and Certified Product Owner based in Berlin, specializing in building various projects, excellent websites, and anything that awakens the senses.{" "}
               </p>
             </div>
             <div class='icons'>
@@ -70,15 +67,15 @@ class App extends React.Component {
           <h2 id='work'>Recent Projects </h2>
         </div>
         <div className='grid-container'>
-        <div className="grid-child-dog">
-        <DogFood />
-        </div>
-        <div className="grid-child-photo">
-        <PhotoDjango />
-        </div>
-        <div className="grid-child-expanding">
-        <Expanding_X_Cards_X_50501 />
-        </div>
+          <div className="grid-child-dog">
+            <DogFood />
+          </div>
+          <div className="grid-child-photo">
+            <PhotoDjango />
+          </div>
+          <div className="grid-child-expanding">
+            <Expanding_X_Cards_X_50501 />
+          </div>
         </div>
       </div>
     );
